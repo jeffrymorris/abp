@@ -173,5 +173,7 @@
     <PackageVersion Include="coverlet.collector" Version="6.0.0" />
     <PackageVersion Include="ConfigureAwait.Fody" Version="3.3.2" />
     <PackageVersion Include="Fody" Version="6.8.0" />
+    <PackageVersion Include="CouchbaseNetClient" Version="3.5.2" />
+    <PackageVersion Include="Couchbase.Extensions.DependencyInjection" Version="3.5.2" />
   </ItemGroup>
 </Project>
