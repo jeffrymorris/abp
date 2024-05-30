@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Couchbase.KeyValue;
 using JetBrains.Annotations;
 using Volo.Abp.Couchbase.Volo.Couchbase;
 using Volo.Abp.Couchbase.Volo.Domain.Repositories.Couchbase;

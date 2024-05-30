@@ -1,7 +1,5 @@
 using Couchbase;
 using Couchbase.Extensions.DependencyInjection;
-using Couchbase.KeyValue;
-using Google.Api;
 
 namespace Volo.Abp.Couchbase.Volo.Couchbase;
 

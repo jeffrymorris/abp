@@ -8,6 +8,8 @@
     </PropertyGroup>
     
     <ItemGroup>
+        <PackageReference Include="Couchbase.Extensions.DependencyInjection" />
+        <PackageReference Include="CouchbaseNetClient" />
         <PackageReference Include="Serilog.Extensions.Logging.File" />
         <ProjectReference Include="..\..\src\Volo.Abp.Autofac\Volo.Abp.Autofac.csproj" />
         <ProjectReference Include="..\..\src\Volo.Abp.Couchbase\Volo.Abp.Couchbase.csproj" />
@@ -20,6 +22,11 @@
       <None Update="settings.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageVersion Update="Serilog.Extensions.Logging.File" Version="3.0.0" />
+      <PackageVersion Update="CouchbaseNetClient" Version="3.5.2" />
     </ItemGroup>
 
 </Project>

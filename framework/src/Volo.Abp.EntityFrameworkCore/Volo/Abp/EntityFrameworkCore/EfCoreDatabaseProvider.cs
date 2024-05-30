@@ -9,5 +9,6 @@ public enum EfCoreDatabaseProvider
     Sqlite,
     InMemory,
     Cosmos,
-    Firebird
+    Firebird,
+    Couchbase
 }

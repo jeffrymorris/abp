@@ -12,7 +12,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.TestApp;
 using Volo.Abp.TestApp.Domain;
 using Volo.TestApp;
-
+using Serilog.Extensions.Logging.File;
 namespace Volo.Abp.Couchbase;
 
 [DependsOn(
